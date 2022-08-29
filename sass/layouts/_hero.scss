@@ -11,30 +11,30 @@
       rgba(47, 48, 58, 0.4)
     ),
     url(../img/Img\ hero.jpg);
-  &-title {
-    margin: 0 auto;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #ffffff;
-    margin-bottom: 30px;
-    max-width: 696px;
-  }
-  &-btn {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
-    color: #ffffff;
-    background-color: #2196f3;
-    min-width: 216px;
-    height: 50px;
-  }
 }
 
+.home__btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+  min-width: 216px;
+  height: 50px;
+}
+.home__title {
+  margin: 0 auto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 30px;
+  max-width: 696px;
+}
 .hero,
 footer {
   background-color: var(--main-hero-background-color);
