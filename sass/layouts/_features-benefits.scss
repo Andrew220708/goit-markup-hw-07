@@ -1,4 +1,4 @@
-.features-benefits {
+.features__benefits {
   background-color: #f5f4fa;
   margin-bottom: 30px;
   border-radius: 4px;
@@ -9,19 +9,19 @@
   fill: #afb1b8;
 }
 
-.features-list {
+.features__list {
   display: flex;
   gap: 30px;
 }
 
-.features-after-title {
+.features__after-title {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-after-title-color);
 }
 
-.features-title {
+.features__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
